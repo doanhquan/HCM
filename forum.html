@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hồ Chí Minh</title>
+<link rel="icon" href="./img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+	
+
+	 <header class="header_area">
+    	<div class="main-menu container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="./index.html"><div class="logo-img"></div></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Trang chủ <span class="sr-only">(current)</span></a>
+              </li>
+             
+              <li class="nav-item dropdown">
+					<a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Tư liệu
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          
+					    <a class="dropdown-item" href="#">Tư liệu ảnh</a>
+					    <div class="dropdown-divider"></div>
+					    <a class="dropdown-item" href="#">Tư liệu video</a>
+					     <div class="dropdown-divider"></div>
+					    <a class="dropdown-item" href="#">Tư liệu audio</a>
+					</div>
+			  </li>
+			  <li class="nav-item">
+                <a class="nav-link" href="#">Tư tưởng, đạo đức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bác với thế giới</a>
+              </li>
+              <li class="nav-item dropdown">
+					<a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Tác phẩm
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          
+					    <a class="dropdown-item" href="#">Tác phẩm của Bác</a>
+					    <div class="dropdown-divider"></div>
+					    <a class="dropdown-item" href="#">Tác phẩm về Bác</a>
+					</div>
+			  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./forum.html">Diễn đàn</a>
+              </li>
+             
+                          
+            </ul>
+          </div>
+        </nav>
+      </div>  	
+   </header>
+
+   <!--------end header-------->
+
+   <!-----------banner----------->
+
+   <div class="banner-area container-fluid"></div>
+    
+   <!-----------end banner-------->
+   
+
+
+
+
+
+   <div class="site-forum">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <div class="forum-catalog d-flex">
+             <p class="mr-auto">Trang chủ > Diễn đàn</p>
+             <button id="login">Đăng nhập</button>
+             <div class="overlay-2">
+               <div class="login-area">
+                  <div class="hide"><span><i class="fas fa-times"></i></span></div>
+                 <h2>Đăng nhập</h2>
+                 <input type="text" placeholder="Tên đăng nhập">
+                 <input type="Password" placeholder="Mật khẩu">
+                 <button class="hide">Đăng nhập</button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Diễn đàn</h1>
+            <div class="p">Nếu bạn chưa có tài khoản? <a id="signup" href="#" style="color: rgba(209,183,150,1);">Nhấn vào đây</a></div>
+
+              <div class="overlay-3">
+               <div class="signup-area">
+                  <div class="hide-signup"><span><i class="fas fa-times"></i></span></div>
+                 <h2>Đăng Ký</h2>
+                 <input type="text" placeholder="Tên đăng nhập">
+                 <input type="Password" placeholder="Mật khẩu">
+                 <input type="Password" placeholder="Xác nhận mật khẩu">
+                 <button class="hide-signup">Đăng Ký</button>
+               </div>
+             </div>
+
+          </div>
+        </div>
+        <div class="row py-5">
+          <div class="col-lg-8 col-12">
+            <div class="user-form">
+
+              <div class="user-write">
+                <textarea placeholder="Nhập"></textarea>
+                <div class="user-write-icon d-flex">
+                  <div class="icon-item mr-auto"><i class="far fa-file-image" title="ảnh"></i> Ảnh <i class="far fa-file" title="tệp"></i> Tệp</div>
+                  
+                  <div class="icon-item"><button>Đăng</button></div>
+                </div>
+              </div>
+              <div class="user-post">
+                <div class="post-item">
+                  
+                  <div class="post-text">
+                    <h5><i class="far fa-user"></i> User name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non veritatis illum laudantium quo voluptatum optio laborum, corporis...</p>
+                  </div>
+                </div>
+                <div class="post-icon">
+                  <div class="post-icon-item"><i class="far fa-thumbs-up"></i> Thích</div>
+                  <div class="post-icon-item"><i class="far fa-comment-alt"></i> Bình luận</div>
+                  <div class="post-icon-item">Đánh giá <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                </div>
+              </div>
+
+              <div class="user-post">
+                <div class="post-item">
+                  
+                  <div class="post-text">
+                    <h5><i class="far fa-user"></i> User name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non veritatis illum laudantium quo voluptatum optio laborum, corporis...</p>
+                  </div>
+                </div>
+                <div class="post-icon">
+                  <div class="post-icon-item"><i class="far fa-thumbs-up"></i> Thích</div>
+                  <div class="post-icon-item"><i class="far fa-comment-alt"></i> Bình luận</div>
+                  <div class="post-icon-item">Đánh giá <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                </div>
+              </div>
+
+              <div class="user-post">
+                <div class="post-item">
+                  
+                  <div class="post-text">
+                    <h5><i class="far fa-user"></i> User name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non veritatis illum laudantium quo voluptatum optio laborum, corporis...</p>
+                  </div>
+                </div>
+                <div class="post-icon">
+                  <div class="post-icon-item"><i class="far fa-thumbs-up"></i> Thích</div>
+                  <div class="post-icon-item"><i class="far fa-comment-alt"></i> Bình luận</div>
+                  <div class="post-icon-item">Đánh giá <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                </div>
+              </div>
+
+              <div class="user-post">
+                <div class="post-item">
+                  
+                  <div class="post-text">
+                    <h5><i class="far fa-user"></i> User name</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non veritatis illum laudantium quo voluptatum optio laborum, corporis...</p>
+                  </div>
+                </div>
+                <div class="post-icon">
+                  <div class="post-icon-item"><i class="far fa-thumbs-up"></i> Thích</div>
+                  <div class="post-icon-item"><i class="far fa-comment-alt"></i> Bình luận</div>
+                  <div class="post-icon-item">Đánh giá <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                </div>
+              </div>
+              <div class="text-center" style="cursor: pointer;">Xem thêm...</div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="forum-filter">
+              <div class="filter-search">
+                <input type="text" placeholder="Tìm kiếm từ khóa">
+                <button>Tìm kiếm</button>
+              </div>
+              <div class="filter-btn">
+                <button class="active">Mới nhất</button>
+                <button>Nhiều lượt thích</button>
+                <button>Nhiều bình luận</button>
+                <button>Đánh giá cao</button>
+                <button>Trong tuần</button>
+                <button>Trong tháng</button>
+                <button>Trong năm</button>
+              </div>
+
+              <div class="filter-tag">
+                <p>Thẻ</p>
+                <div class="tag-btn">
+                  <a href="#">Tác phẩm</a>
+                  <a href="#">Chiến công</a>
+                </div>
+                <div class="tag-btn">
+                  <a href="#">Hồ Chí Minh</a>
+                  <a href="#">Tư tưởng</a>
+                  
+                </div>
+                <div class="tag-btn">
+                  <a href="#">Tư liệu</a>
+                  <a href="#">Âm thanh</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+     </div>
+
+   </div>
+
+
+
+
+
+  <!------------footer------------->
+
+  <div class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12 text-center">
+          <div class="contact">
+            <h3 class="contact-title">Ý kiến đóng góp</h3>
+            <textarea placeholder="Nhập tại đây"></textarea>
+            <div class="contact-form">
+              <input type="Email" placeholder="Email">
+              <button>Gửi</button>
+            </div>
+            
+
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 text-center">
+          <div class="social">
+            <h3>Liên Hệ</h3>
+            <p>hcm@gmail.com</p>
+            <p>www.hcm.vn/lienhe/</p>
+            <p>0123456789</p>
+            <p>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-google-plus"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------end footer------------->
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/jquery.3.4.1.js"></script>
+<!-- bootstrap js file-->
+<script src="./js/bootstrap.min.js"></script>
+<!-- custom js file -->
+<script src="./js/main.js"></script>
+
+
+</body>
+</html>
